@@ -4,7 +4,6 @@ def using_include(array, element)
   array.include?(element)
 end
 
-#lib/array_methods.rb
 
 def using_sort(array,element)
   array.sort(array,element)
