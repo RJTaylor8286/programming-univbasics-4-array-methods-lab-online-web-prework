@@ -6,8 +6,8 @@ end
 
 #lib/array_methods.rb
 
-def using_sort(array)
-  array.sort(array)
+def using_sort(array,element)
+  array.sort(element)
 end
 
 def using_reverse(array)
