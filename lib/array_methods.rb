@@ -4,9 +4,10 @@ def using_include(array, element)
   array.include?(element)
 end
 
-favorite_basketball_players = ["Lebron James", "Michael Jordan", "Allen Iverson"]
-favorite_basketball_players.sort
+#lib/array_methods.rb
 
+def using_sort(array)
+  array.sort(array)
 end
 
 def using_reverse(array)
